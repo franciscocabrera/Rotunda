@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#zooMember {
+  position: relative;
+  display: inline-block;
+}
+
+#animalButton {
+  padding: 10px 20px;
+  margin: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+#animalButton:hover {
+  scale: 90%
+}
+
+.text-box {
+  display: none;
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  background-color: #fff;
+  color: #333;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #333;
+  border-style: solid;
+  white-space: nowrap;
+  font-size: 14px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.text-box.show {
+  display: block;
+  opacity: 1;
+}
+
+#input {
+  padding: 5px;
+  margin: 10px;
+  border-color: darkgray;
+  border-width: 1px;
+  border-radius: 5px;
+  border-style: solid;
+}
+
+#input:focus {
+  border-color: black;
+  outline: none
+}
+
+#submit {
+  padding: 10px 20px;
+  margin-top: 30px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: lightgreen;
+}
+
+#submit:hover {
+  background-color: rgb(111, 209, 111);
+}
+
+#hintContainer {
+  margin-top: 50px;
+  margin-bottom: 5px;
+  display: flex;
+  width: 80%
+}
+
+#hint {
+  align-self: flex-start;
+  opacity: 0;
+}
+
+#hint.show {
+  opacity: 1
+}
+
+#animalsContainer {
+  border-style: solid;
+  border-width: 3px;
+  border-color: #AAA;
+  border-radius: 5px;
+  background-color: #fafafa;
+  width: 80%;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content:flex-start;
+  justify-content: flex-start;
+}
