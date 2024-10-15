@@ -1,0 +1,27 @@
+Home screen
+The key points offered with the circular designs are clear and eye catching, but the second image having a square component 
+inside a circular display feels a bit clashing, perhaps a different way of displaying the information inside the circle, 
+or a different visual design altogether that doesnt use circles would be better for this use case.
+The caroussel looks and feels great, specially the fade in animations for text, tho the transition arrows i notice disappear
+when the window gets narrower, even tho there was still space for them, perhaphs the style on them could be made in a way where
+window size is better taken into account.
+The navigation menu would be better if it was sticky, and stayed at the top as you scroll, so the user doesn't have to scroll
+all the way back up to navigate on the app.
+
+Sign Up
+In the log in sccreen, the first name and last name inputs should be visually separated, since if they are merged as they
+are now an user would thing its the same field  and enter their first and last name in the first name field, and then have to
+go back and correct his when trying to sign up, this could be avoided then by separating them.
+The fields could dynamically check if they are correctly filled in, instead of checking at the moment of pressing sign up
+this makes it easier on the user to correct their mistakes as they will be inmediatly shown if their text is valid, instead of
+having to try to sign up and be denied every time they make a mistake.
+The password warning could also dynamically check the password instead of having to wait for the field to lose focus, a throtle
+on the typing would make the field only be checked once the user hasnt typed for a second and thus not be annoyingly correcting
+the user when they havent finished writing their password.
+
+Sign In
+the keep me logged in is more traditionally expected to be below the field it pertains to or at the bottom of the form
+The reddening of the fields when incorrect is visually clear, but a message explaining the exact error to the user will
+cause less frustration for users who don't understand what the issue is, i tried signin in with an invalid email format and
+there was no message, just a red error, as a user i dont have a way of knowing if the error is caused by the incorrect format
+or if it's caused because my email is wrong or there isnt an account with that email.
